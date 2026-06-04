@@ -20,7 +20,7 @@ export function Footer() {
             </div>
             <div className="flex flex-col gap-4 border-l border-white/10 pl-8">
                <h5 className="uppercase text-[10px] tracking-widest font-semibold opacity-60 mb-4 text-[var(--color-claridad)]">Contacto</h5>
-               <a href="mailto:contacto@dualia.com" className="opacity-80 hover:text-[var(--color-accent)] transition-colors">contacto@dualia.com</a>
+               <a href="mailto:Contacto@dualiaconsultora.cl" className="opacity-80 hover:text-[var(--color-accent)] transition-colors">Contacto@dualiaconsultora.cl</a>
                <a href="https://wa.me/56974897392" target="_blank" rel="noopener noreferrer" className="opacity-80 hover:text-[var(--color-accent)] transition-colors">+56 9 7489 7392</a>
                
                <h5 className="uppercase text-[10px] tracking-widest font-semibold opacity-60 mb-4 mt-8 text-[var(--color-claridad)]">Redes</h5>
