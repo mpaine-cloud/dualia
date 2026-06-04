@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --color-confianza: #0d1b2a;
+  --color-compromiso: #1b365d;
+  --color-cercania: #607d8b;
+  --color-claridad: #e7ecef;
+  --color-equilibrio: #f7f7f7;
+
+  --color-bg-primary: var(--color-equilibrio);
+  --color-bg-secondary: var(--color-claridad);
+  --color-ink: var(--color-confianza);
+  --color-accent: var(--color-cercania);
+  --color-brand: var(--color-compromiso);
+  
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Montserrat", sans-serif;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-bg-primary);
+    color: var(--color-ink);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+  }
+}
+
+@layer utilities {
+  .serif {
+    font-family: var(--font-serif);
+  }
+
+  .vertical-text {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  .oval-mask {
+    border-radius: 9999px;
+    object-fit: cover;
+  }
+
+  .nav-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 2px solid rgba(26, 26, 26, 0.1);
+  }
+
+  .border-ink {
+    border-color: rgba(26, 26, 26, 0.2);
+  }
+}
