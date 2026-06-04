@@ -26,6 +26,7 @@ export function Footer() {
                <h5 className="uppercase text-[10px] tracking-widest font-semibold opacity-60 mb-4 mt-8 text-[var(--color-claridad)]">Redes</h5>
                <div className="flex gap-4">
                  <a href="https://www.instagram.com/dualiaconsultora/" target="_blank" rel="noopener noreferrer" className="opacity-80 hover:text-white text-[10px] uppercase tracking-widest font-bold">IG</a>
+                 <a href="https://www.linkedin.com/company/dualia-consultora-boutique/" target="_blank" rel="noopener noreferrer" className="opacity-80 hover:text-white text-[10px] uppercase tracking-widest font-bold">IN</a>
                </div>
             </div>
          </div>
